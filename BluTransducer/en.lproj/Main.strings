@@ -1,0 +1,18 @@
+
+/* Class = "UIViewController"; title = "PressureView"; ObjectID = "1Jm-ca-mJa"; */
+"1Jm-ca-mJa.title" = "PressureView";
+
+/* Class = "UIButton"; normalTitle = "Connect"; ObjectID = "1am-Et-yzx"; */
+"1am-Et-yzx.normalTitle" = "Connect";
+
+/* Class = "UIViewController"; title = "CalibrationView"; ObjectID = "9Sp-Z9-WDl"; */
+"9Sp-Z9-WDl.title" = "CalibrationView";
+
+/* Class = "UIViewController"; title = "SelectView"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "SelectView";
+
+/* Class = "UITextView"; text = "Please pick a device to connect to from the list below"; ObjectID = "kmG-75-651"; */
+"kmG-75-651.text" = "Please pick a device to connect to from the list below";
+
+/* Class = "UINavigationItem"; title = "Validyne Engineering"; ObjectID = "zTg-UO-gYa"; */
+"zTg-UO-gYa.title" = "Validyne Engineering";

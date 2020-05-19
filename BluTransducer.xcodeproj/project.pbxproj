@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186D62111861D54A85732E5B /* Pods_BluTransducer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97BEC3E0A56EB0441444521 /* Pods_BluTransducer.framework */; };
+		2626A9DD21419A9C00326AC1 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626A9DC21419A9C00326AC1 /* ProgressView.swift */; };
+		2626A9DF2141AF4500326AC1 /* UnitConversionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626A9DE2141AF4500326AC1 /* UnitConversionHelper.swift */; };
+		266D4E3C2110FA4C0020F03E /* UnitsPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D4E3B2110FA4C0020F03E /* UnitsPickerViewController.swift */; };
+		26B5DF43211CBEE60086D94C /* BLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B5DF42211CBEE60086D94C /* BLE.swift */; };
+		26C9077D20DC026600F4FC51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C9077C20DC026600F4FC51 /* AppDelegate.swift */; };
+		26C9078220DC026600F4FC51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C9078020DC026600F4FC51 /* Main.storyboard */; };
+		26C9078420DC026800F4FC51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C9078320DC026800F4FC51 /* Assets.xcassets */; };
+		26C9078720DC026800F4FC51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C9078520DC026800F4FC51 /* LaunchScreen.storyboard */; };
+		26E1B8632126217300A4D9ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E1B8622126217300A4D9ED /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		088C8EC6111505E71E0B13D4 /* Pods-BluTransducer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluTransducer.release.xcconfig"; path = "Pods/Target Support Files/Pods-BluTransducer/Pods-BluTransducer.release.xcconfig"; sourceTree = "<group>"; };
+		2626A9DC21419A9C00326AC1 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		2626A9DE2141AF4500326AC1 /* UnitConversionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversionHelper.swift; sourceTree = "<group>"; };
+		266D4E3B2110FA4C0020F03E /* UnitsPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsPickerViewController.swift; sourceTree = "<group>"; };
+		26B5DF42211CBEE60086D94C /* BLE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLE.swift; sourceTree = "<group>"; };
+		26C9077920DC026600F4FC51 /* BluTransducer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluTransducer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C9077C20DC026600F4FC51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26C9078120DC026600F4FC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26C9078320DC026800F4FC51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26C9078620DC026800F4FC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26C9078820DC026800F4FC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E1B8622126217300A4D9ED /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A15D397CB21868F94AADCA73 /* Pods-BluTransducer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluTransducer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BluTransducer/Pods-BluTransducer.debug.xcconfig"; sourceTree = "<group>"; };
+		E97BEC3E0A56EB0441444521 /* Pods_BluTransducer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluTransducer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26C9077620DC026600F4FC51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186D62111861D54A85732E5B /* Pods_BluTransducer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C9077020DC026600F4FC51 = {
+			isa = PBXGroup;
+			children = (
+				26C9077B20DC026600F4FC51 /* BluTransducer */,
+				26C9077A20DC026600F4FC51 /* Products */,
+				7BD1590B622F7AFBC872B7B6 /* Pods */,
+				C7A195F2514196E4A42BE130 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26C9077A20DC026600F4FC51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26C9077920DC026600F4FC51 /* BluTransducer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26C9077B20DC026600F4FC51 /* BluTransducer */ = {
+			isa = PBXGroup;
+			children = (
+				26C9077C20DC026600F4FC51 /* AppDelegate.swift */,
+				26B5DF42211CBEE60086D94C /* BLE.swift */,
+				2626A9DC21419A9C00326AC1 /* ProgressView.swift */,
+				2626A9DE2141AF4500326AC1 /* UnitConversionHelper.swift */,
+				26E1B8622126217300A4D9ED /* ViewController.swift */,
+				266D4E3B2110FA4C0020F03E /* UnitsPickerViewController.swift */,
+				26C9078020DC026600F4FC51 /* Main.storyboard */,
+				26C9078320DC026800F4FC51 /* Assets.xcassets */,
+				26C9078520DC026800F4FC51 /* LaunchScreen.storyboard */,
+				26C9078820DC026800F4FC51 /* Info.plist */,
+			);
+			path = BluTransducer;
+			sourceTree = "<group>";
+		};
+		7BD1590B622F7AFBC872B7B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A15D397CB21868F94AADCA73 /* Pods-BluTransducer.debug.xcconfig */,
+				088C8EC6111505E71E0B13D4 /* Pods-BluTransducer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7A195F2514196E4A42BE130 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E97BEC3E0A56EB0441444521 /* Pods_BluTransducer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26C9077820DC026600F4FC51 /* BluTransducer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C9078B20DC026800F4FC51 /* Build configuration list for PBXNativeTarget "BluTransducer" */;
+			buildPhases = (
+				B851D652E973B2078F7580B6 /* [CP] Check Pods Manifest.lock */,
+				26C9077520DC026600F4FC51 /* Sources */,
+				26C9077620DC026600F4FC51 /* Frameworks */,
+				26C9077720DC026600F4FC51 /* Resources */,
+				3E40659C670B7C36F8004C6D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluTransducer;
+			productName = BluTransducer;
+			productReference = 26C9077920DC026600F4FC51 /* BluTransducer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26C9077120DC026600F4FC51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Validyne;
+				TargetAttributes = {
+					26C9077820DC026600F4FC51 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 26C9077420DC026600F4FC51 /* Build configuration list for PBXProject "BluTransducer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26C9077020DC026600F4FC51;
+			productRefGroup = 26C9077A20DC026600F4FC51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26C9077820DC026600F4FC51 /* BluTransducer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26C9077720DC026600F4FC51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C9078720DC026800F4FC51 /* LaunchScreen.storyboard in Resources */,
+				26C9078420DC026800F4FC51 /* Assets.xcassets in Resources */,
+				26C9078220DC026600F4FC51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E40659C670B7C36F8004C6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BluTransducer/Pods-BluTransducer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluTransducer/Pods-BluTransducer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B851D652E973B2078F7580B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BluTransducer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26C9077520DC026600F4FC51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266D4E3C2110FA4C0020F03E /* UnitsPickerViewController.swift in Sources */,
+				26C9077D20DC026600F4FC51 /* AppDelegate.swift in Sources */,
+				2626A9DD21419A9C00326AC1 /* ProgressView.swift in Sources */,
+				2626A9DF2141AF4500326AC1 /* UnitConversionHelper.swift in Sources */,
+				26E1B8632126217300A4D9ED /* ViewController.swift in Sources */,
+				26B5DF43211CBEE60086D94C /* BLE.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26C9078020DC026600F4FC51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C9078120DC026600F4FC51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26C9078520DC026800F4FC51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C9078620DC026800F4FC51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26C9078920DC026800F4FC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26C9078A20DC026800F4FC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26C9078C20DC026800F4FC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15D397CB21868F94AADCA73 /* Pods-BluTransducer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHQPQ6U54W;
+				INFOPLIST_FILE = BluTransducer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vec.BluTransducer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BluTransducer/BluTransducer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26C9078D20DC026800F4FC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088C8EC6111505E71E0B13D4 /* Pods-BluTransducer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHQPQ6U54W;
+				INFOPLIST_FILE = BluTransducer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vec.BluTransducer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BluTransducer/BluTransducer-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26C9077420DC026600F4FC51 /* Build configuration list for PBXProject "BluTransducer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C9078920DC026800F4FC51 /* Debug */,
+				26C9078A20DC026800F4FC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C9078B20DC026800F4FC51 /* Build configuration list for PBXNativeTarget "BluTransducer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C9078C20DC026800F4FC51 /* Debug */,
+				26C9078D20DC026800F4FC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26C9077120DC026600F4FC51 /* Project object */;
+}
